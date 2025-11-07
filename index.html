@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>श्री नवज्याेती मा.बि</h1>
+    </header>
+
+<!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-container">            
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item dropdown">
+                    <a href="#" class="navbar-link">Department<i class="fas fa-chevron-down dropdown-icon"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Primary</a></li>
+                        <li><a href="#">Lower-Secondary</a></li>
+                        <li><a href="#">General</a></li>
+                        <li><a href="#">Technical</a></li>
+                    </ul>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<!-- End of Navbar Section -->
+<!-- Slidder -->
+  <div class="customSlide">
+    <div class="slider-container">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="images/Slidder1.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="School Building">
+                <div class="slide-caption">
+                    <h3>Navajyoti Secondary School</h3>
+                    <p>Biruwa-1, Syngja</p>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="images/Slidder2.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Classroom">
+                <div class="slide-caption">
+                    <h3>State-of-the-Art Facilities</h3>
+                    <p>Modern classrooms equipped with cutting-edge technology for 21st century learning</p>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="images/Slidder3.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Sports">
+                <div class="slide-caption">
+                    <h3>Holistic Development</h3>
+                    <p>Comprehensive extracurricular programs to develop talents beyond academics</p>
+                </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="slide">
+                <img src="images/Slidder4.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="Science Lab">
+                <div class="slide-caption">
+                    <h3>Innovative Learning Spaces</h3>
+                    <p>Fully equipped laboratories for hands-on scientific exploration and discovery</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation buttons -->
+        <button class="slider-btn" id="prevBtn">&#10094;</button>
+        <button class="slider-btn" id="nextBtn">&#10095;</button>
+        
+        <!-- Indicators -->
+        <div class="indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </div>
+  </div>
+<!--End of Slidder-->
+
+<!-- Welcome Section -->
+ <section class="welcome-section">
+    <div class="container">
+        <h1>Welcome to Greenwood High</h1>
+        <p>Where excellence in education meets character development. Our mission is to nurture curious minds and compassionate hearts in a dynamic learning environment.</p>
+        <div class="welcome-buttons">
+        <a href="#" class="btn btn-primary">Take a Virtual Tour</a>
+        <a href="#" class="btn btn-secondary">Meet Our Principal</a>
+    </div>
+    </div>
+</section>
+
+<!-- Quick Links -->
+<section class="quick-links">
+    <div class="container">
+        <h2 class="section-title">Quick Access</h2>
+        <div class="link-grid">
+            <a href="#" class="link-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Admissions</h3>
+                <p>Learn about our enrollment process</p>
+            </a>
+            <a href="#" class="link-card">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Academic Calendar</h3>
+                <p>View important dates</p>
+            </a>
+            <a href="#" class="link-card">
+                <i class="fas fa-newspaper"></i>
+                <h3>News & Events</h3>
+                <p>Latest school updates</p>
+            </a>
+            <a href="#" class="link-card">
+                <i class="fas fa-users"></i>
+                <h3>Parent Portal</h3>
+                <p>Access student information</p>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- End of Welcome Section-->
+
+<!-- Footer -->
+
+  <footer id="main-footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>About</h3>
+        <p>We provide amazing solutions for your business.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p>Email: support@example.com</p>
+        <p>Phone: +123-456-7890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>
+        &copy; <span id="year"></span> My Website | All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
